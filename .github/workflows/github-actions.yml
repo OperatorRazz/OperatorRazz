@@ -33,12 +33,6 @@ jobs:
           base_indepth: yes
           config_octicon: yes
           config_timezone: America/New_York
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
@@ -57,8 +51,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_projects: yes
-          plugin_projects_limit: 4
           plugin_repositories: yes
           plugin_repositories_featured: operatorrazz.github.io
           plugin_repositories_order: featured, pinned, starred, random
